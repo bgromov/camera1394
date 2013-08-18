@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="1" name="unittest.suite.TestSuite" tests="1" time="6.031">
+  <testcase classname="__main__.HzTest" name="test_hz" time="6.0311">
+    <failure type="AssertionError">average rate (0.500Hz) exceeded minimum (0.500Hz)
+  File "/usr/lib/python2.7/unittest/case.py", line 327, in run
+    testMethod()
+  File "/opt/ros/groovy/share/rostest/nodes/hztest/hztest", line 115, in test_hz
+    self._test_hz(hz, hzerror, topic, test_duration, wait_time)
+  File "/opt/ros/groovy/share/rostest/nodes/hztest/hztest", line 185, in _test_hz
+    (rate, self.min_rate))
+  File "/usr/lib/python2.7/unittest/case.py", line 420, in assertTrue
+    raise self.failureException(msg)
+    </failure>
+  </testcase>
+  <system-out><![CDATA[Hz: 1.0
+Hz Error: 0.5
+Topic: diagnostics
+Test Duration: 5.0
+Waiting for messages
+Starting rate measurement
+Done waiting, validating results
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

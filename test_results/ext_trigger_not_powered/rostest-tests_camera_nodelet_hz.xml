@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="3" time="23.501">
+  <testcase classname="rostest.runner.RosTest" name="testnodelet_camera_image_hz_test" time="7.7427"></testcase>
+  <testcase classname="rostest.runner.RosTest" name="testnodelet_camera_info_hz_test" time="7.5284"></testcase>
+  <testcase classname="rostest.runner.RosTest" name="testnodelet_diagnostics_hz_test" time="8.2291"></testcase>
+  <system-out><![CDATA[[ROSTEST]setup[/home/ugv/groovy_ws/catkin/src/camera1394/tests/camera_nodelet_hz.test] run_id[59044cf6-080e-11e3-844e-002666016720] starting
+?[1mstarted roslaunch server http://ugv-vision:51229/?[0m
+ros_comm version 1.9.47
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /nodelet_hztest_diag/hz
+ * /nodelet_hztest_diag/hzerror
+ * /nodelet_hztest_diag/test_duration
+ * /nodelet_hztest_diag/topic
+ * /nodelet_hztest_diag/wait_time
+ * /nodelet_hztest_image/hz
+ * /nodelet_hztest_image/hzerror
+ * /nodelet_hztest_image/test_duration
+ * /nodelet_hztest_image/topic
+ * /nodelet_hztest_image/wait_time
+ * /nodelet_hztest_info/hz
+ * /nodelet_hztest_info/hzerror
+ * /nodelet_hztest_info/test_duration
+ * /nodelet_hztest_info/topic
+ * /nodelet_hztest_info/wait_time
+ * /rosdistro
+ * /rosversion
+
+NODES
+  /
+    camera1394_nodelet (nodelet/nodelet)
+
+[ROSTEST]setup[/home/ugv/groovy_ws/catkin/src/camera1394/tests/camera_nodelet_hz.test] run_id[59044cf6-080e-11e3-844e-002666016720] done
+[ROSTEST]Running test [nodelet_camera_image_hz_test]
+auto-starting new master
+?[1mprocess[master]: started with pid [17449]?[0m
+?[1mROS_MASTER_URI=http://ugv-vision:22422/?[0m
+?[1msetting /run_id to 59044cf6-080e-11e3-844e-002666016720?[0m
+?[1mprocess[rosout-1]: started with pid [17462]?[0m
+started core service [/rosout]
+?[1mprocess[camera1394_nodelet-2]: started with pid [17474]?[0m
+[ROSTEST]removing previous test results file [/home/ugv/groovy_ws/catkin/build/test_results/camera1394/rosunit-nodelet_camera_image_hz_test.xml]
+[ROSTEST]running test nodelet_camera_image_hz_test
+?[1mprocess[nodelet_hztest_image-3]: started with pid [17506]?[0m
+?[1m[nodelet_hztest_image-3] process has finished cleanly
+log file: /home/ugv/.ros/log/59044cf6-080e-11e3-844e-002666016720/nodelet_hztest_image-3*.log?[0m
+[ROSTEST]test [nodelet_camera_image_hz_test] finished
+[ROSTEST]test [nodelet_camera_image_hz_test] results are in [/home/ugv/groovy_ws/catkin/build/test_results/camera1394/rosunit-nodelet_camera_image_hz_test.xml]
+[ROSTEST]test [nodelet_camera_image_hz_test] results summary: 0 errors, 0 failures, 1 tests
+[ROSTEST][ROSTEST] test [nodelet_camera_image_hz_test] done
+[ROSTEST]tearDown[/home/ugv/groovy_ws/catkin/src/camera1394/tests/camera_nodelet_hz.test]
+shutting down processing monitor...
+[camera1394_nodelet-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/ugv/groovy_ws/catkin/src/camera1394/tests/camera_nodelet_hz.test complete
+[ROSTEST]setup[/home/ugv/groovy_ws/catkin/src/camera1394/tests/camera_nodelet_hz.test] run_id[5d9fc560-080e-11e3-844e-002666016720] starting
+?[1mstarted roslaunch server http://ugv-vision:45003/?[0m
+ros_comm version 1.9.47
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /nodelet_hztest_diag/hz
+ * /nodelet_hztest_diag/hzerror
+ * /nodelet_hztest_diag/test_duration
+ * /nodelet_hztest_diag/topic
+ * /nodelet_hztest_diag/wait_time
+ * /nodelet_hztest_image/hz
+ * /nodelet_hztest_image/hzerror
+ * /nodelet_hztest_image/test_duration
+ * /nodelet_hztest_image/topic
+ * /nodelet_hztest_image/wait_time
+ * /nodelet_hztest_info/hz
+ * /nodelet_hztest_info/hzerror
+ * /nodelet_hztest_info/test_duration
+ * /nodelet_hztest_info/topic
+ * /nodelet_hztest_info/wait_time
+ * /rosdistro
+ * /rosversion
+
+NODES
+  /
+    camera1394_nodelet (nodelet/nodelet)
+
+[ROSTEST]setup[/home/ugv/groovy_ws/catkin/src/camera1394/tests/camera_nodelet_hz.test] run_id[5d9fc560-080e-11e3-844e-002666016720] done
+[ROSTEST]Running test [nodelet_camera_info_hz_test]
+auto-starting new master
+?[1mprocess[master]: started with pid [17799]?[0m
+?[1mROS_MASTER_URI=http://ugv-vision:22422/?[0m
+?[1msetting /run_id to 5d9fc560-080e-11e3-844e-002666016720?[0m
+?[1mprocess[rosout-4]: started with pid [17812]?[0m
+started core service [/rosout]
+?[1mprocess[camera1394_nodelet-5]: started with pid [17824]?[0m
+[ROSTEST]removing previous test results file [/home/ugv/groovy_ws/catkin/build/test_results/camera1394/rosunit-nodelet_camera_info_hz_test.xml]
+[ROSTEST]running test nodelet_camera_info_hz_test
+?[1mprocess[nodelet_hztest_info-6]: started with pid [17856]?[0m
+?[1m[nodelet_hztest_info-6] process has finished cleanly
+log file: /home/ugv/.ros/log/5d9fc560-080e-11e3-844e-002666016720/nodelet_hztest_info-6*.log?[0m
+[ROSTEST]test [nodelet_camera_info_hz_test] finished
+[ROSTEST]test [nodelet_camera_info_hz_test] results are in [/home/ugv/groovy_ws/catkin/build/test_results/camera1394/rosunit-nodelet_camera_info_hz_test.xml]
+[ROSTEST]test [nodelet_camera_info_hz_test] results summary: 0 errors, 0 failures, 1 tests
+[ROSTEST][ROSTEST] test [nodelet_camera_info_hz_test] done
+[ROSTEST]tearDown[/home/ugv/groovy_ws/catkin/src/camera1394/tests/camera_nodelet_hz.test]
+shutting down processing monitor...
+[camera1394_nodelet-5] killing on exit
+[rosout-4] killing on exit
+[master] killing on exit
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/ugv/groovy_ws/catkin/src/camera1394/tests/camera_nodelet_hz.test complete
+[ROSTEST]setup[/home/ugv/groovy_ws/catkin/src/camera1394/tests/camera_nodelet_hz.test] run_id[621c8646-080e-11e3-844e-002666016720] starting
+?[1mstarted roslaunch server http://ugv-vision:35668/?[0m
+ros_comm version 1.9.47
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /nodelet_hztest_diag/hz
+ * /nodelet_hztest_diag/hzerror
+ * /nodelet_hztest_diag/test_duration
+ * /nodelet_hztest_diag/topic
+ * /nodelet_hztest_diag/wait_time
+ * /nodelet_hztest_image/hz
+ * /nodelet_hztest_image/hzerror
+ * /nodelet_hztest_image/test_duration
+ * /nodelet_hztest_image/topic
+ * /nodelet_hztest_image/wait_time
+ * /nodelet_hztest_info/hz
+ * /nodelet_hztest_info/hzerror
+ * /nodelet_hztest_info/test_duration
+ * /nodelet_hztest_info/topic
+ * /nodelet_hztest_info/wait_time
+ * /rosdistro
+ * /rosversion
+
+NODES
+  /
+    camera1394_nodelet (nodelet/nodelet)
+
+[ROSTEST]setup[/home/ugv/groovy_ws/catkin/src/camera1394/tests/camera_nodelet_hz.test] run_id[621c8646-080e-11e3-844e-002666016720] done
+[ROSTEST]Running test [nodelet_diagnostics_hz_test]
+auto-starting new master
+?[1mprocess[master]: started with pid [18149]?[0m
+?[1mROS_MASTER_URI=http://ugv-vision:22422/?[0m
+?[1msetting /run_id to 621c8646-080e-11e3-844e-002666016720?[0m
+?[1mprocess[rosout-7]: started with pid [18162]?[0m
+started core service [/rosout]
+?[1mprocess[camera1394_nodelet-8]: started with pid [18174]?[0m
+[ROSTEST]removing previous test results file [/home/ugv/groovy_ws/catkin/build/test_results/camera1394/rosunit-nodelet_diagnostics_hz_test.xml]
+[ROSTEST]running test nodelet_diagnostics_hz_test
+?[1mprocess[nodelet_hztest_diag-9]: started with pid [18206]?[0m
+?[1m[nodelet_hztest_diag-9] process has finished cleanly
+log file: /home/ugv/.ros/log/621c8646-080e-11e3-844e-002666016720/nodelet_hztest_diag-9*.log?[0m
+[ROSTEST]test [nodelet_diagnostics_hz_test] finished
+[ROSTEST]test [nodelet_diagnostics_hz_test] results are in [/home/ugv/groovy_ws/catkin/build/test_results/camera1394/rosunit-nodelet_diagnostics_hz_test.xml]
+[ROSTEST]test [nodelet_diagnostics_hz_test] results summary: 0 errors, 0 failures, 1 tests
+[ROSTEST][ROSTEST] test [nodelet_diagnostics_hz_test] done
+[ROSTEST]tearDown[/home/ugv/groovy_ws/catkin/src/camera1394/tests/camera_nodelet_hz.test]
+shutting down processing monitor...
+[camera1394_nodelet-8] killing on exit
+[rosout-7] killing on exit
+[master] killing on exit
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/ugv/groovy_ws/catkin/src/camera1394/tests/camera_nodelet_hz.test complete
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="3" time="34.723">
+  <testcase classname="rostest.runner.RosTest" name="testno_device_diagnostics_test" time="8.9461"></testcase>
+  <testcase classname="rostest.runner.RosTest" name="testno_device_image_test" time="12.9385"></testcase>
+  <testcase classname="rostest.runner.RosTest" name="testno_device_info_test" time="12.8378"></testcase>
+  <system-out><![CDATA[[ROSTEST]setup[/home/ugv/groovy_ws/catkin/src/camera1394/tests/no_device_node.test] run_id[88414808-080d-11e3-8246-002666016720] starting
+?[1mstarted roslaunch server http://ugv-vision:49586/?[0m
+ros_comm version 1.9.47
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /camera1394_node/guid
+ * /nodev_diag/hz
+ * /nodev_diag/hzerror
+ * /nodev_diag/test_duration
+ * /nodev_diag/topic
+ * /nodev_diag/wait_time
+ * /nodev_image/hz
+ * /nodev_image/hzerror
+ * /nodev_image/test_duration
+ * /nodev_image/topic
+ * /nodev_image/wait_time
+ * /nodev_info/hz
+ * /nodev_info/hzerror
+ * /nodev_info/test_duration
+ * /nodev_info/topic
+ * /nodev_info/wait_time
+ * /rosdistro
+ * /rosversion
+
+NODES
+  /
+    camera1394_node (camera1394/camera1394_node)
+
+[ROSTEST]setup[/home/ugv/groovy_ws/catkin/src/camera1394/tests/no_device_node.test] run_id[88414808-080d-11e3-8246-002666016720] done
+[ROSTEST]Running test [no_device_diagnostics_test]
+auto-starting new master
+?[1mprocess[master]: started with pid [13511]?[0m
+?[1mROS_MASTER_URI=http://ugv-vision:22422/?[0m
+?[1msetting /run_id to 88414808-080d-11e3-8246-002666016720?[0m
+?[1mprocess[rosout-1]: started with pid [13524]?[0m
+started core service [/rosout]
+?[1mprocess[camera1394_node-2]: started with pid [13536]?[0m
+[ROSTEST]removing previous test results file [/home/ugv/groovy_ws/catkin/build/test_results/camera1394/rosunit-no_device_diagnostics_test.xml]
+[ROSTEST]running test no_device_diagnostics_test
+?[1mprocess[nodev_diag-3]: started with pid [13648]?[0m
+?[1m[nodev_diag-3] process has finished cleanly
+log file: /home/ugv/.ros/log/88414808-080d-11e3-8246-002666016720/nodev_diag-3*.log?[0m
+[ROSTEST]test [no_device_diagnostics_test] finished
+[ROSTEST]test [no_device_diagnostics_test] results are in [/home/ugv/groovy_ws/catkin/build/test_results/camera1394/rosunit-no_device_diagnostics_test.xml]
+[ROSTEST]test [no_device_diagnostics_test] results summary: 0 errors, 0 failures, 1 tests
+[ROSTEST][ROSTEST] test [no_device_diagnostics_test] done
+[ROSTEST]tearDown[/home/ugv/groovy_ws/catkin/src/camera1394/tests/no_device_node.test]
+shutting down processing monitor...
+[camera1394_node-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/ugv/groovy_ws/catkin/src/camera1394/tests/no_device_node.test complete
+[ROSTEST]setup[/home/ugv/groovy_ws/catkin/src/camera1394/tests/no_device_node.test] run_id[8d9400e8-080d-11e3-8246-002666016720] starting
+?[1mstarted roslaunch server http://ugv-vision:59871/?[0m
+ros_comm version 1.9.47
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /camera1394_node/guid
+ * /nodev_diag/hz
+ * /nodev_diag/hzerror
+ * /nodev_diag/test_duration
+ * /nodev_diag/topic
+ * /nodev_diag/wait_time
+ * /nodev_image/hz
+ * /nodev_image/hzerror
+ * /nodev_image/test_duration
+ * /nodev_image/topic
+ * /nodev_image/wait_time
+ * /nodev_info/hz
+ * /nodev_info/hzerror
+ * /nodev_info/test_duration
+ * /nodev_info/topic
+ * /nodev_info/wait_time
+ * /rosdistro
+ * /rosversion
+
+NODES
+  /
+    camera1394_node (camera1394/camera1394_node)
+
+[ROSTEST]setup[/home/ugv/groovy_ws/catkin/src/camera1394/tests/no_device_node.test] run_id[8d9400e8-080d-11e3-8246-002666016720] done
+[ROSTEST]Running test [no_device_image_test]
+auto-starting new master
+?[1mprocess[master]: started with pid [13838]?[0m
+?[1mROS_MASTER_URI=http://ugv-vision:22422/?[0m
+?[1msetting /run_id to 8d9400e8-080d-11e3-8246-002666016720?[0m
+?[1mprocess[rosout-4]: started with pid [13851]?[0m
+started core service [/rosout]
+?[1mprocess[camera1394_node-5]: started with pid [13863]?[0m
+[ROSTEST]removing previous test results file [/home/ugv/groovy_ws/catkin/build/test_results/camera1394/rosunit-no_device_image_test.xml]
+[ROSTEST]running test no_device_image_test
+?[1mprocess[nodev_image-6]: started with pid [13978]?[0m
+?[1m[nodev_image-6] process has finished cleanly
+log file: /home/ugv/.ros/log/8d9400e8-080d-11e3-8246-002666016720/nodev_image-6*.log?[0m
+[ROSTEST]test [no_device_image_test] finished
+[ROSTEST]test [no_device_image_test] results are in [/home/ugv/groovy_ws/catkin/build/test_results/camera1394/rosunit-no_device_image_test.xml]
+[ROSTEST]test [no_device_image_test] results summary: 0 errors, 0 failures, 1 tests
+[ROSTEST][ROSTEST] test [no_device_image_test] done
+[ROSTEST]tearDown[/home/ugv/groovy_ws/catkin/src/camera1394/tests/no_device_node.test]
+shutting down processing monitor...
+[camera1394_node-5] killing on exit
+[rosout-4] killing on exit
+[master] killing on exit
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/ugv/groovy_ws/catkin/src/camera1394/tests/no_device_node.test complete
+[ROSTEST]setup[/home/ugv/groovy_ws/catkin/src/camera1394/tests/no_device_node.test] run_id[954a4a0e-080d-11e3-8246-002666016720] starting
+?[1mstarted roslaunch server http://ugv-vision:49176/?[0m
+ros_comm version 1.9.47
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /camera1394_node/guid
+ * /nodev_diag/hz
+ * /nodev_diag/hzerror
+ * /nodev_diag/test_duration
+ * /nodev_diag/topic
+ * /nodev_diag/wait_time
+ * /nodev_image/hz
+ * /nodev_image/hzerror
+ * /nodev_image/test_duration
+ * /nodev_image/topic
+ * /nodev_image/wait_time
+ * /nodev_info/hz
+ * /nodev_info/hzerror
+ * /nodev_info/test_duration
+ * /nodev_info/topic
+ * /nodev_info/wait_time
+ * /rosdistro
+ * /rosversion
+
+NODES
+  /
+    camera1394_node (camera1394/camera1394_node)
+
+[ROSTEST]setup[/home/ugv/groovy_ws/catkin/src/camera1394/tests/no_device_node.test] run_id[954a4a0e-080d-11e3-8246-002666016720] done
+[ROSTEST]Running test [no_device_info_test]
+auto-starting new master
+?[1mprocess[master]: started with pid [14164]?[0m
+?[1mROS_MASTER_URI=http://ugv-vision:22422/?[0m
+?[1msetting /run_id to 954a4a0e-080d-11e3-8246-002666016720?[0m
+?[1mprocess[rosout-7]: started with pid [14177]?[0m
+started core service [/rosout]
+?[1mprocess[camera1394_node-8]: started with pid [14189]?[0m
+[ROSTEST]removing previous test results file [/home/ugv/groovy_ws/catkin/build/test_results/camera1394/rosunit-no_device_info_test.xml]
+[ROSTEST]running test no_device_info_test
+?[1mprocess[nodev_info-9]: started with pid [14309]?[0m
+?[1m[nodev_info-9] process has finished cleanly
+log file: /home/ugv/.ros/log/954a4a0e-080d-11e3-8246-002666016720/nodev_info-9*.log?[0m
+[ROSTEST]test [no_device_info_test] finished
+[ROSTEST]test [no_device_info_test] results are in [/home/ugv/groovy_ws/catkin/build/test_results/camera1394/rosunit-no_device_info_test.xml]
+[ROSTEST]test [no_device_info_test] results summary: 0 errors, 0 failures, 1 tests
+[ROSTEST][ROSTEST] test [no_device_info_test] done
+[ROSTEST]tearDown[/home/ugv/groovy_ws/catkin/src/camera1394/tests/no_device_node.test]
+shutting down processing monitor...
+[camera1394_node-8] killing on exit
+[rosout-7] killing on exit
+[master] killing on exit
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/ugv/groovy_ws/catkin/src/camera1394/tests/no_device_node.test complete
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

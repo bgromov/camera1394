@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="1" time="19.560">
+  <testcase classname="rostest.runner.RosTest" name="testcamera_image_nodelet_trigger_hz_test" time="19.5594"></testcase>
+  <system-out><![CDATA[[ROSTEST]setup[/home/ugv/groovy_ws/catkin/src/camera1394/tests/trigger_nodelet.test] run_id[32d84a78-080e-11e3-b602-002666016720] starting
+?[1mstarted roslaunch server http://ugv-vision:40762/?[0m
+ros_comm version 1.9.47
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /camera1394_nodelet/external_trigger
+ * /camera1394_nodelet/software_trigger
+ * /camera1394_nodelet/trigger_source
+ * /hztest_image_nodelet_trigger/hz
+ * /hztest_image_nodelet_trigger/hzerror
+ * /hztest_image_nodelet_trigger/test_duration
+ * /hztest_image_nodelet_trigger/topic
+ * /hztest_image_nodelet_trigger/wait_time
+ * /rosdistro
+ * /rosversion
+
+NODES
+  /
+    camera1394_nodelet (nodelet/nodelet)
+    trigger_node (camera1394/trigger_node)
+
+[ROSTEST]setup[/home/ugv/groovy_ws/catkin/src/camera1394/tests/trigger_nodelet.test] run_id[32d84a78-080e-11e3-b602-002666016720] done
+[ROSTEST]Running test [camera_image_nodelet_trigger_hz_test]
+auto-starting new master
+?[1mprocess[master]: started with pid [15713]?[0m
+?[1mROS_MASTER_URI=http://ugv-vision:22422/?[0m
+?[1msetting /run_id to 32d84a78-080e-11e3-b602-002666016720?[0m
+?[1mprocess[rosout-1]: started with pid [15726]?[0m
+started core service [/rosout]
+?[1mprocess[camera1394_nodelet-2]: started with pid [15738]?[0m
+?[1mprocess[trigger_node-3]: started with pid [15770]?[0m
+[ROSTEST]removing previous test results file [/home/ugv/groovy_ws/catkin/build/test_results/camera1394/rosunit-camera_image_nodelet_trigger_hz_test.xml]
+[ROSTEST]running test camera_image_nodelet_trigger_hz_test
+?[1mprocess[hztest_image_nodelet_trigger-4]: started with pid [15857]?[0m
+[ROSTEST]test [camera_image_nodelet_trigger_hz_test] finished
+[ROSTEST]test [camera_image_nodelet_trigger_hz_test] results are in [/home/ugv/groovy_ws/catkin/build/test_results/camera1394/rosunit-camera_image_nodelet_trigger_hz_test.xml]
+[ROSTEST]test [camera_image_nodelet_trigger_hz_test] results summary: 0 errors, 1 failures, 1 tests
+[ROSTEST][ROSTEST] test [camera_image_nodelet_trigger_hz_test] done
+[ROSTEST]tearDown[/home/ugv/groovy_ws/catkin/src/camera1394/tests/trigger_nodelet.test]
+shutting down processing monitor...
+[camera1394_nodelet-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/ugv/groovy_ws/catkin/src/camera1394/tests/trigger_nodelet.test complete
+]]></system-out>
+  <system-err><![CDATA[?[31m[trigger_node-3] process has died [pid 15770, exit code 2, cmd /home/ugv/groovy_ws/catkin/devel/lib/camera1394/trigger_node __name:=trigger_node __log:=/home/ugv/.ros/log/32d84a78-080e-11e3-b602-002666016720/trigger_node-3.log].
+log file: /home/ugv/.ros/log/32d84a78-080e-11e3-b602-002666016720/trigger_node-3*.log?[0m
+?[31m[hztest_image_nodelet_trigger-4] process has died [pid 15857, exit code 1, cmd /opt/ros/groovy/share/rostest/nodes/hztest/hztest --gtest_output=xml:/home/ugv/groovy_ws/catkin/build/test_results/camera1394/rosunit-camera_image_nodelet_trigger_hz_test.xml __name:=hztest_image_nodelet_trigger __log:=/home/ugv/.ros/log/32d84a78-080e-11e3-b602-002666016720/hztest_image_nodelet_trigger-4.log].
+log file: /home/ugv/.ros/log/32d84a78-080e-11e3-b602-002666016720/hztest_image_nodelet_trigger-4*.log?[0m
+?[31m[camera1394_nodelet-2] escalating to SIGTERM?[0m
+]]></system-err>
+</testsuite>

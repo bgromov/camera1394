@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="3" time="34.721">
+  <testcase classname="rostest.runner.RosTest" name="testnodelet_nodev_diagnostics_test" time="8.9447"></testcase>
+  <testcase classname="rostest.runner.RosTest" name="testnodelet_nodev_image_test" time="12.9385"></testcase>
+  <testcase classname="rostest.runner.RosTest" name="testnodelet_nodev_info_test" time="12.8373"></testcase>
+  <system-out><![CDATA[[ROSTEST]setup[/home/ugv/groovy_ws/catkin/src/camera1394/tests/no_device_nodelet.test] run_id[1dd52a9c-080e-11e3-bcc1-002666016720] starting
+?[1mstarted roslaunch server http://ugv-vision:49276/?[0m
+ros_comm version 1.9.47
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /camera1394_nodelet/guid
+ * /nodelet_nodev_diag/hz
+ * /nodelet_nodev_diag/hzerror
+ * /nodelet_nodev_diag/test_duration
+ * /nodelet_nodev_diag/topic
+ * /nodelet_nodev_diag/wait_time
+ * /nodelet_nodev_image/hz
+ * /nodelet_nodev_image/hzerror
+ * /nodelet_nodev_image/test_duration
+ * /nodelet_nodev_image/topic
+ * /nodelet_nodev_image/wait_time
+ * /nodelet_nodev_info/hz
+ * /nodelet_nodev_info/hzerror
+ * /nodelet_nodev_info/test_duration
+ * /nodelet_nodev_info/topic
+ * /nodelet_nodev_info/wait_time
+ * /rosdistro
+ * /rosversion
+
+NODES
+  /
+    camera1394_nodelet (nodelet/nodelet)
+
+[ROSTEST]setup[/home/ugv/groovy_ws/catkin/src/camera1394/tests/no_device_nodelet.test] run_id[1dd52a9c-080e-11e3-bcc1-002666016720] done
+[ROSTEST]Running test [nodelet_nodev_diagnostics_test]
+auto-starting new master
+?[1mprocess[master]: started with pid [14646]?[0m
+?[1mROS_MASTER_URI=http://ugv-vision:22422/?[0m
+?[1msetting /run_id to 1dd52a9c-080e-11e3-bcc1-002666016720?[0m
+?[1mprocess[rosout-1]: started with pid [14659]?[0m
+started core service [/rosout]
+?[1mprocess[camera1394_nodelet-2]: started with pid [14671]?[0m
+[ROSTEST]removing previous test results file [/home/ugv/groovy_ws/catkin/build/test_results/camera1394/rosunit-nodelet_nodev_diagnostics_test.xml]
+[ROSTEST]running test nodelet_nodev_diagnostics_test
+?[1mprocess[nodelet_nodev_diag-3]: started with pid [14688]?[0m
+?[1m[nodelet_nodev_diag-3] process has finished cleanly
+log file: /home/ugv/.ros/log/1dd52a9c-080e-11e3-bcc1-002666016720/nodelet_nodev_diag-3*.log?[0m
+[ROSTEST]test [nodelet_nodev_diagnostics_test] finished
+[ROSTEST]test [nodelet_nodev_diagnostics_test] results are in [/home/ugv/groovy_ws/catkin/build/test_results/camera1394/rosunit-nodelet_nodev_diagnostics_test.xml]
+[ROSTEST]test [nodelet_nodev_diagnostics_test] results summary: 0 errors, 0 failures, 1 tests
+[ROSTEST][ROSTEST] test [nodelet_nodev_diagnostics_test] done
+[ROSTEST]tearDown[/home/ugv/groovy_ws/catkin/src/camera1394/tests/no_device_nodelet.test]
+shutting down processing monitor...
+[camera1394_nodelet-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/ugv/groovy_ws/catkin/src/camera1394/tests/no_device_nodelet.test complete
+[ROSTEST]setup[/home/ugv/groovy_ws/catkin/src/camera1394/tests/no_device_nodelet.test] run_id[2328005a-080e-11e3-bcc1-002666016720] starting
+?[1mstarted roslaunch server http://ugv-vision:34457/?[0m
+ros_comm version 1.9.47
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /camera1394_nodelet/guid
+ * /nodelet_nodev_diag/hz
+ * /nodelet_nodev_diag/hzerror
+ * /nodelet_nodev_diag/test_duration
+ * /nodelet_nodev_diag/topic
+ * /nodelet_nodev_diag/wait_time
+ * /nodelet_nodev_image/hz
+ * /nodelet_nodev_image/hzerror
+ * /nodelet_nodev_image/test_duration
+ * /nodelet_nodev_image/topic
+ * /nodelet_nodev_image/wait_time
+ * /nodelet_nodev_info/hz
+ * /nodelet_nodev_info/hzerror
+ * /nodelet_nodev_info/test_duration
+ * /nodelet_nodev_info/topic
+ * /nodelet_nodev_info/wait_time
+ * /rosdistro
+ * /rosversion
+
+NODES
+  /
+    camera1394_nodelet (nodelet/nodelet)
+
+[ROSTEST]setup[/home/ugv/groovy_ws/catkin/src/camera1394/tests/no_device_nodelet.test] run_id[2328005a-080e-11e3-bcc1-002666016720] done
+[ROSTEST]Running test [nodelet_nodev_image_test]
+auto-starting new master
+?[1mprocess[master]: started with pid [14996]?[0m
+?[1mROS_MASTER_URI=http://ugv-vision:22422/?[0m
+?[1msetting /run_id to 2328005a-080e-11e3-bcc1-002666016720?[0m
+?[1mprocess[rosout-4]: started with pid [15009]?[0m
+started core service [/rosout]
+?[1mprocess[camera1394_nodelet-5]: started with pid [15021]?[0m
+[ROSTEST]removing previous test results file [/home/ugv/groovy_ws/catkin/build/test_results/camera1394/rosunit-nodelet_nodev_image_test.xml]
+[ROSTEST]running test nodelet_nodev_image_test
+?[1mprocess[nodelet_nodev_image-6]: started with pid [15053]?[0m
+?[1m[nodelet_nodev_image-6] process has finished cleanly
+log file: /home/ugv/.ros/log/2328005a-080e-11e3-bcc1-002666016720/nodelet_nodev_image-6*.log?[0m
+[ROSTEST]test [nodelet_nodev_image_test] finished
+[ROSTEST]test [nodelet_nodev_image_test] results are in [/home/ugv/groovy_ws/catkin/build/test_results/camera1394/rosunit-nodelet_nodev_image_test.xml]
+[ROSTEST]test [nodelet_nodev_image_test] results summary: 0 errors, 0 failures, 1 tests
+[ROSTEST][ROSTEST] test [nodelet_nodev_image_test] done
+[ROSTEST]tearDown[/home/ugv/groovy_ws/catkin/src/camera1394/tests/no_device_nodelet.test]
+shutting down processing monitor...
+[camera1394_nodelet-5] killing on exit
+[rosout-4] killing on exit
+[master] killing on exit
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/ugv/groovy_ws/catkin/src/camera1394/tests/no_device_nodelet.test complete
+[ROSTEST]setup[/home/ugv/groovy_ws/catkin/src/camera1394/tests/no_device_nodelet.test] run_id[2ade4732-080e-11e3-bcc1-002666016720] starting
+?[1mstarted roslaunch server http://ugv-vision:35909/?[0m
+ros_comm version 1.9.47
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /camera1394_nodelet/guid
+ * /nodelet_nodev_diag/hz
+ * /nodelet_nodev_diag/hzerror
+ * /nodelet_nodev_diag/test_duration
+ * /nodelet_nodev_diag/topic
+ * /nodelet_nodev_diag/wait_time
+ * /nodelet_nodev_image/hz
+ * /nodelet_nodev_image/hzerror
+ * /nodelet_nodev_image/test_duration
+ * /nodelet_nodev_image/topic
+ * /nodelet_nodev_image/wait_time
+ * /nodelet_nodev_info/hz
+ * /nodelet_nodev_info/hzerror
+ * /nodelet_nodev_info/test_duration
+ * /nodelet_nodev_info/topic
+ * /nodelet_nodev_info/wait_time
+ * /rosdistro
+ * /rosversion
+
+NODES
+  /
+    camera1394_nodelet (nodelet/nodelet)
+
+[ROSTEST]setup[/home/ugv/groovy_ws/catkin/src/camera1394/tests/no_device_nodelet.test] run_id[2ade4732-080e-11e3-bcc1-002666016720] done
+[ROSTEST]Running test [nodelet_nodev_info_test]
+auto-starting new master
+?[1mprocess[master]: started with pid [15346]?[0m
+?[1mROS_MASTER_URI=http://ugv-vision:22422/?[0m
+?[1msetting /run_id to 2ade4732-080e-11e3-bcc1-002666016720?[0m
+?[1mprocess[rosout-7]: started with pid [15359]?[0m
+started core service [/rosout]
+?[1mprocess[camera1394_nodelet-8]: started with pid [15371]?[0m
+[ROSTEST]removing previous test results file [/home/ugv/groovy_ws/catkin/build/test_results/camera1394/rosunit-nodelet_nodev_info_test.xml]
+[ROSTEST]running test nodelet_nodev_info_test
+?[1mprocess[nodelet_nodev_info-9]: started with pid [15403]?[0m
+?[1m[nodelet_nodev_info-9] process has finished cleanly
+log file: /home/ugv/.ros/log/2ade4732-080e-11e3-bcc1-002666016720/nodelet_nodev_info-9*.log?[0m
+[ROSTEST]test [nodelet_nodev_info_test] finished
+[ROSTEST]test [nodelet_nodev_info_test] results are in [/home/ugv/groovy_ws/catkin/build/test_results/camera1394/rosunit-nodelet_nodev_info_test.xml]
+[ROSTEST]test [nodelet_nodev_info_test] results summary: 0 errors, 0 failures, 1 tests
+[ROSTEST][ROSTEST] test [nodelet_nodev_info_test] done
+[ROSTEST]tearDown[/home/ugv/groovy_ws/catkin/src/camera1394/tests/no_device_nodelet.test]
+shutting down processing monitor...
+[camera1394_nodelet-8] killing on exit
+[rosout-7] killing on exit
+[master] killing on exit
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/ugv/groovy_ws/catkin/src/camera1394/tests/no_device_nodelet.test complete
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
